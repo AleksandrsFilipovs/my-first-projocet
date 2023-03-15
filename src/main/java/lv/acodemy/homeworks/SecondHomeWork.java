@@ -18,8 +18,6 @@ public class SecondHomeWork {
 
         System.out.println(Arrays.toString(sentence));
 
-
-
             /*
             if(5000=>)
             if else (5000 10000)
@@ -27,7 +25,7 @@ public class SecondHomeWork {
              */
 
         int salary  = 5000;
-        if (salary <= 5000) {
+        if (salary < 5000) {
             System.out.println("Your salary is low.");
         } else if (salary <= 10000) {
             System.out.println("Your salary is average.");
@@ -52,8 +50,6 @@ public class SecondHomeWork {
         {
             System.out.println("Number is zero");
         }
-
-
 
     }
 }
