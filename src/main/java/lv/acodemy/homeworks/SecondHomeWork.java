@@ -16,7 +16,9 @@ public class SecondHomeWork {
 
         String [] sentence  = {"Sometimes", "it", "pays", "to", "stay", "in", "bed", "on", "Monday,", "rather", "than", "spending", "the", "rest", "of", "the", "week", "debugging", "Monday’s", "code."};
 
-        System.out.println(Arrays.toString(sentence));
+        for (int i = 0; i < sentence.length; i++) {
+            System.out.print(sentence[i] + " ");
+        }
 
             /*
             if(5000=>)
